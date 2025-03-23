@@ -2,7 +2,4 @@
 -- Code de la partie 2 ici...
 print("Partie 2 exécutée")
 
--- Charger la partie 3
-local urlPart3 = "https://raw.githubusercontent.com/SwauxyYTB/test-part3/refs/heads/main/base"
-local codePart3 = game:HttpGet(urlPart3)
-loadstring(codePart3)()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SwauxyYTB/test-part3/refs/heads/main/base"))()
